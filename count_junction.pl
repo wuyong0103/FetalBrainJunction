@@ -57,5 +57,4 @@ cd /home/wuyong/data/phs001900/featurecount
 featureCounts -O -T 10 -a /home/wuyong/genome/gencode_hg38/gencode.v35.annotation.gtf -o $key\_Exon.count /home/wuyong/data/phs001900/star/$key\_Aligned.sortedByCoord.out.bam
 featureCounts -T 10 -a /home/wuyong/genome/gencode_hg38/gencode.v35.annotation.gtf -o $key\_Gene.count /home/wuyong/data/phs001900/star/$key\_Aligned.sortedByCoord.out.bam
 ";
-;
 }
